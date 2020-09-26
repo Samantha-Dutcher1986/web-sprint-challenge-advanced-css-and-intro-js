@@ -250,16 +250,12 @@ function getArtistByIndex(array, index) {
 
 // };
 function get20s(years) {
-  const birthDeath = years.filter(years >= 1900 && years <= 2000);
-  if (birthDeath === years.filter(years >= 1900 && years <= 2000){
+  // const birthDeath = years.filter(years >= 1900 && years <= 2000);
+  if (birthDeath === years.filter(years >= 1900 && years <= 2000) {
     return array;
   }
-};
+}
 console.log(get20s(birthDeath));
-
-
-// const results = years.filter(years >= 1900 && <= 2000);
-// console.log(results);
 
 
 /* Task 5: Create a function called `removeArtist` that takes two arguments:
@@ -378,3 +374,18 @@ function randomize(/* Code here */){
 
 
  /* STRETCH 3: Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example) */
+ const results = years.filter(years >= 1900 && <= 2000);
+console.log(results);
+
+/*INTERVIEW QUESTIONS*/
+
+// // 1. How would you describe acessibility on the web to someone new to programming?
+//   Making your work usable by people of all abilities or disablities
+// // 2. Talk about 3 different things you can do to ensure your website is accessible.
+//   Make sure it has enough contrast for those that are color-blind. 
+//   Make sure you add alt text to all images for those that rely on screen readers.
+//   Make sure your HTML is semantic so the browser can properly read it.
+// // 3. How would you explain the concept of a variable to someone new to programming?
+//   A variable is like a box that holds data
+// // 4. What is the purpose of using functions in code?
+//   To keep your code DRY
